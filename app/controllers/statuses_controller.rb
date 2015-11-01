@@ -62,6 +62,8 @@ class StatusesController < ApplicationController
   end
 
   private
+    def test
+    end
     # Use callbacks to share common setup or constraints between actions.
     def set_status
       @status = Status.find(params[:id])
